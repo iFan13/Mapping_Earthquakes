@@ -3,8 +3,8 @@ console.log("working");
 
 // Create the map object with a center and zoom level.
 let map = L.map("mapid", {
-    center: [34.967243,-103.771556],
-    zoom: 4
+    center: [34.0522,-118.2437],
+    zoom: 14
 });
 
 
