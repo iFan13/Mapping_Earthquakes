@@ -3,21 +3,25 @@ console.log("working");
 
 // Create the map object with a center and zoom level.
 let map = L.map("mapid", {
-    center: [37.6213, -122.3790],
+    center: [37.6213, -102.3790],
     zoom: 5
 });
 
 // Coordinates for each point to be used in the line.
 let line = [
-    [33.9416, -118.4085],
-    [37.6213, -122.3790],
-    [40.7899, -111.9791],
-    [47.4502, -122.3088]
+    [37.6213, -122.3790], //SFO
+    [30.1975, -97.6664], //AUS
+    [43.6777, -79.6248], //YYZ
+    [40.6413, -73.7781] //JFK
   ];
 
 // Create a polyline using the line coordinates and make the line red.
 L.polyline(line, {
-    color: "yellow"
+    color: "blue",
+    weight: 4,
+    opacity: 0.5,
+    dashArray: 8
+    
  }).addTo(map);
 
 // create the tile layer that will be the background of our map.
