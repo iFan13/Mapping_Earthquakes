@@ -102,6 +102,8 @@ dist
 
 # TernJS port file
 .tern-port
+
+.config.js
 Mapping_GeoJSON_Points/static/js/config.js
 Mapping_Lines/static/js/config.js
 Mapping_Single_Points/static/js/config.js
